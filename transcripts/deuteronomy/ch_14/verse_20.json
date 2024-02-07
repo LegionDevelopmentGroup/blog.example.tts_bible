@@ -1,0 +1,1 @@
+{"text": " All that is clean you shall eat.", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 2.0, "text": " All that is clean you shall eat.", "tokens": [50364, 1057, 300, 307, 2541, 291, 4393, 1862, 13, 50464], "temperature": 0.0, "avg_logprob": -0.2821315201846036, "compression_ratio": 0.8205128205128205, "no_speech_prob": 0.0020490705501288176}], "language": "English"}

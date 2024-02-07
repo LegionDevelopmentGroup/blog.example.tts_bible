@@ -1,0 +1,1 @@
+{"text": " Thus shalt thou do.", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 1.68, "text": " Thus shalt thou do.", "tokens": [50364, 13827, 402, 3198, 24757, 360, 13, 50448], "temperature": 0.0, "avg_logprob": -0.5812301635742188, "compression_ratio": 0.7037037037037037, "no_speech_prob": 0.1810627579689026}], "language": "English"}

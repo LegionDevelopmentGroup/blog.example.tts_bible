@@ -1,0 +1,1 @@
+{"text": " Thou shalt not kill.", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 1.4000000000000001, "text": " Thou shalt not kill.", "tokens": [50364, 334, 263, 402, 3198, 406, 1961, 13, 50434], "temperature": 0.0, "avg_logprob": -0.29168679714202883, "compression_ratio": 0.7142857142857143, "no_speech_prob": 0.043026525527238846}], "language": "English"}

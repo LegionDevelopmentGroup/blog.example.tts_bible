@@ -1,0 +1,1 @@
+{"text": " and the Lord said to Moses.", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 1.76, "text": " and the Lord said to Moses.", "tokens": [50364, 293, 264, 3257, 848, 281, 17580, 13, 50452], "temperature": 0.0, "avg_logprob": -0.424028205871582, "compression_ratio": 0.8181818181818182, "no_speech_prob": 0.003937510307878256}], "language": "English"}

@@ -1,0 +1,1 @@
+{"text": " the book of Deuteronomy.", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 2.4, "text": " the book of Deuteronomy.", "tokens": [50364, 264, 1446, 295, 1346, 325, 16308, 8488, 13, 50484], "temperature": 0.0, "avg_logprob": -0.296980619430542, "compression_ratio": 0.75, "no_speech_prob": 0.012007836252450943}], "language": "English"}

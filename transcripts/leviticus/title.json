@@ -1,0 +1,1 @@
+{"text": " the book of Leviticus.", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 2.12, "text": " the book of Leviticus.", "tokens": [50364, 264, 1446, 295, 1456, 10398, 36496, 13, 50470], "temperature": 0.0, "avg_logprob": -0.34177460670471194, "compression_ratio": 0.7333333333333333, "no_speech_prob": 0.020855464041233063}], "language": "English"}
