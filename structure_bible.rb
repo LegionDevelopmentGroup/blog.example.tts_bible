@@ -165,7 +165,7 @@ end.parse!
 FileUtils.mkdir_p File.dirname(output_path)
 
 #NEW_TESTAMENT_STRUCTURE
-OLD_TESTAMENT_STRUCTURE.each do |structure|
+BIBLE_STRUCTURE.each do |structure|
     puts "structure[:name] #{structure[:name]}"
     parse_book(input_file, output_path, "json", structure)
 end
