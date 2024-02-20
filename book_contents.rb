@@ -45,7 +45,7 @@ OLD_TESTAMENT_STRUCTURE = [ {name: "genesis", start: 189, end: 5893},
                    {name: "zacharias", start: 101383, end: 102476},
                    {name: "malachias", start: 102476, end: 102769},
                    {name: "machabees_1", start: 102769, end: 106178},
-                   {name: "machabees_1", start: 106178, end: 108563},
+                   {name: "machabees_2", start: 106178, end: 108563},
                ]
 
 # New Testament
