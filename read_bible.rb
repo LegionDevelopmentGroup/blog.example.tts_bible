@@ -11,7 +11,7 @@ def read_book(text, ref, model, vocoder, lang, speaker, ext = '.wav')
 
     if !File.file?(ref)
         run_cmd do
-            %x(~/.local/bin/tts --text "#{text.join(' ')} . " \
+            %x(~/.local/bin/tts --text "#{text.join(' ')}" \
             --model_name "#{model}" \
             --vocoder_name "#{vocoder}" \
             --language_idx "#{lang}" \
