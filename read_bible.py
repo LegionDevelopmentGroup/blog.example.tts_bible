@@ -5,6 +5,8 @@ from pathlib import Path
 import torch
 from TTS.api import TTS
 
+import book_contents
+
 # Get device
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -76,37 +78,7 @@ speaker = "Craig Gutsy"
 vocoder = "vocoder_models/universal/libri-tts/wavegrad"
 lang = "en"
 
-NEW_TESTAMENT_STRUCTURE = [
-    {"name": "matthew", "start": 108570, "end": 112497},
-    {"name": "mark", "start": 112497, "end": 114775},
-    {"name": "luke", "start": 114775, "end": 118719},
-    {"name": "john", "start": 118719, "end": 121727},
-    {"name": "acts", "start": 121727, "end": 125366},
-    {"name": "romans", "start": 125366, "end": 127120},
-    {"name": "corinthians_1", "start": 127120, "end": 128754},
-    {"name": "corinthians_2", "start": 128754, "end": 129721},
-    {"name": "galatians", "start": 129721, "end": 130267},
-    {"name": "ephesians", "start": 130267, "end": 130809},
-    {"name": "philippians", "start": 130809, "end": 131202},
-    {"name": "colossians", "start": 131202, "end": 131597},
-    {"name": "thessalonians_1", "start": 131597, "end": 131920},
-    {"name": "thessalonians_2", "start": 131920, "end": 132120},
-    {"name": "timothy_1", "start": 132120, "end": 132556},
-    {"name": "timothy_2", "start": 132556, "end": 132864},
-    {"name": "titus", "start": 132864, "end": 133043},
-    {"name": "philemon", "start": 133043, "end": 133138},
-    {"name": "hebrews", "start": 133138, "end": 134329},
-    {"name": "james", "start": 134329, "end": 134755},
-    {"name": "peter_1", "start": 134755, "end": 135163},
-    {"name": "peter_2", "start": 135163, "end": 135436},
-    {"name": "john_1", "start": 135436, "end": 135975},
-    {"name": "john_2", "start": 135975, "end": 136052},
-    {"name": "john_3", "start": 136052, "end": 136124},
-    {"name": "jude", "start": 136124, "end": 136293},
-    {"name": "revelation", "start": 136293, "end": 138133},
-]
-
 os.makedirs(out_path, mode = 0o777, exist_ok = True)
 
-for book in NEW_TESTAMENT_STRUCTURE:
+for book in book_contents.NEW_TESTAMENT_STRUCTURE:
     read_book_path(book["name"], in_path, out_path, speaker, model, vocoder, lang)
